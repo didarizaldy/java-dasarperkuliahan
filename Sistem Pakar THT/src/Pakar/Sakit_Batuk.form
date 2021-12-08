@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.8" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Menu class="javax.swing.JMenuBar" name="jMenuBar1">
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="jMenu1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Menu"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem1">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Pakar/Menu 1.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Menu Utama"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem1ActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem5">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Pakar/Menu 4.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Detail Penyakit"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem5ActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem6">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Pakar/Menu 5.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Daftar Pasien"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem6ActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem3">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Pakar/Menu 2.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Rekam Medis"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem3ActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem7">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Pakar/Menu 7.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="History Medis"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem7ActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem4">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Pakar/Menu 3.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Tutorial Menu"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem4ActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem2">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Pakar/Menu 6.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Exit"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem2ActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+      </SubComponents>
+    </Menu>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="menuBar" type="java.lang.String" value="jMenuBar1"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="jToggleButton3" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="jToggleButton2" min="-2" pref="95" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="jLabel7" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="jScrollPane1" alignment="0" pref="300" max="32767" attributes="0"/>
+                                  <Component id="jScrollPane3" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="jLabel5" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jScrollPane2" alignment="0" pref="300" max="32767" attributes="0"/>
+                                  <Component id="jLabel6" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="jLabel1" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="jScrollPane4" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+                  <Component id="jLabel3" alignment="1" pref="618" max="32767" attributes="0"/>
+                  <Component id="jLabel2" alignment="0" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel2" min="-2" pref="100" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jToggleButton3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jToggleButton2" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="jScrollPane2" alignment="1" min="-2" pref="200" max="-2" attributes="0"/>
+                  <Component id="jScrollPane1" alignment="1" min="-2" pref="200" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="jScrollPane4" alignment="0" max="32767" attributes="0"/>
+                  <Component id="jScrollPane3" alignment="0" pref="200" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="11" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Gejala &amp; Penyebab"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea1">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="lineWrap" type="boolean" value="true"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="Batuk bukanlah suatu penyakit. Batuk merupakan mekanisme pertahanan tubuh di saluran pernapasan dan merupakan gejala suatu penyakit atau reaksi tubuh terhadap iritasi di tenggorokan karena adanya lendir, makanan, debu, asap dan sebagainya.&#xa;Batuk terjadi karena rangsangan tertentu, misalnya debu di reseptor batuk (hidung, saluran pernapasan, bahkan telinga). Kemudian reseptor akan mengalirkan lewat syaraf ke pusat batuk yang berada di otak. Di sini akan memberi sinyal kepada otot-otot tubuh untuk mengeluarkan benda asing tadi, hingga terjadilah batuk."/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea2">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="lineWrap" type="boolean" value="true"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="Penyebab Batuk&#xa;Sebelum kita mencar tahu bagaimana cara menyembuhkan batuk, terlebih dahulu kita harus mengetahui hal apa sajakah yang dapat memicu terjadinya batuk. Batuk dapat disebabkan oleh beberapa hal yang diantaranya adalah sebagai berikut :&#xa;1. Umumnya disebabkan oleh infeksi di saluran pernapasan bagian atas yang merupakan gejala flu.&#xa;2. Infeksi saluran pernapasan bagian atas (ISPA).&#xa;3. Alergi&#xa;4. Asma atau tuberculosis&#xa;5. Benda asing yang masuk kedalam saluran napas&#xa;6. Tersedak akibat minum susu&#xa;7. Menghirup asap rokok dari orang sekitar&#xa;8. Batuk Psikogenik. Batuk ini banyak diakibatkan karena masalah emosi dan psikologis.&#xa;"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="11" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Perawatan &amp; Pencegahan"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JToggleButton" name="jToggleButton3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Diagnosis"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton3ActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea3">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="lineWrap" type="boolean" value="true"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="Bagaimana Cara Mengobati Batuk?&#xa;Ada beberpa cara yang dapat kita lakukan saat batuk menyerang diantaranya adalah dengan melakukan tips-tips mengatasi batuk berikut ini :&#xa;1. Pakailah Jaket&#xa;   Pakailah jaket saat anda keluar rumah terutama saat cuaca sedang dingin, tujuannya batuk berkurang dan agar tubuh tetap hangat. Sobat inner juga bisa mandi dengan air hangat, makanan-makanan yang hangat, minum minuman yang hangat, pokonya yang hangat-hangat hehe.&#xa;2. Gunakan Minyak Kayu Putih&#xa;   Agar tubuh tetap hangat sobat inner juga bisa memakai minyak kayu putih untuk dibalukan di bagian dada, leher dan hidung.&#xa;3. Kurangi Makanan Yang Manis&#xa;   Saat anda batuk, anda juga dapat mengurangi makanan/minuman yang manis seper gula, karena makanan atau minuman yang manis-manis dipercaya dapat memicu terjadinya batuk&#xa;4. Cara Menyembuhkan Batuk dengan Campuran Kecap dan Jeruk Nipis&#xa;   Untuk menyembuhkan batuk dengan campuran kecap dan jeruk nipis, caranya sangat mudah, kita dapat melakukan langkah-langkah berikut ini :&#xa;    a. Bahan-bahan :&#xa;    - 1 atau 2 Buah Jeruk Nipis&#xa;    - 1 Sachet Kecap&#xa;    b. Cara-cara penggunaan :&#xa;    Belah jeruk nipis tadi menjadi 2 bagian, selanjutnya peras lah jeruk nipis tersebut kedalam gelas. Stelah itu campurkan dengan kecap. Kemudian anda minum campuran kecap dan jeruk nipis tersebut 2 -3 kali / hari sampai batuk anda benar-benar reda.&#xa;5. Cara Mengobati Batuk dengan Ramuan Herbal&#xa;   Jika dengan menggunakan campuran kecap dan jeruk nipis kurang ampuh, anda bisa mencoba membuat Obat Herbal penyembuh batuk berikut ini. Caranya juga mudah, anda tinggal melakukan langkah-langkah berikut ini :&#xa;    a. Bahan-bahan&#xa;    - Gula batu secukupnya&#xa;    - 7 Lembar daun sirih&#xa;    - 30 gram kencur&#xa;    b. Cara-cara : &#xa;    Pertama adana iris daun kencur dan campurkan dengan daun sirih, setelah itu anda rebus dengan air -+ 600cc, dan tunggu hingga air tersisa 300cc. Kemudian anda saring air rebusan daun kencur dan daun sirih tersebut dan campurkan dengan gula batu tadi. Selanjutnya anda minum ramuan herbal ini 2 kali sehari sampai batuk anda benar-benar sembuh&#xa;6. Pakailah Masker Ketika Berkendara&#xa;   Memakai masker saat berkendara dapat mengurangi resiko gangguan pada saluran pernafasan yang diakibatkan oleh polusi udara.&#xa;7. Perbanyak Minum Air Putih&#xa;   Cara yang terakhir ini merupakan cara yang sederhana yaitu hanya dengan minum air putih. Mengapa harus memperanyak minum air putih? Seperti yang telah kita ketahui sebelumnya, bahwa air putih memiliki banyak manfaat dan salah satunya adalah untuk menjaga kesehatan tubuh kita termasuk menjaga kebersihan tenggorokan."/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel7">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="11" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Cara Mengatasi &amp; Pengobatan"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane4">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea4">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="lineWrap" type="boolean" value="true"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="Untuk itu, sebelum terlambat perlu dilakukan penanganan serius pada penyakit ini. Tujuannya agar penderita tidak mengalami akibat yang lebih fatal, karena menganggap sepele keberadaan penyakit ini. Beberapa hal yang bisa dilakukan di antaranya adalah :&#xa;1. Perbanyak konsumsi air putih. Dengan mengkonsumsi minimal 1 liter sehari, akan mampu menghambat pemampatan dahak dan mengencerkannya kembali.&#xa;2. Mandi dengan air hangat. Selain untuk menjaga kebersihan, air yang hangat akan merangsang dahak untuk menjadi lebih encer dan mudah keluar.&#xa;3. Berhenti minum alkohol dan terutama menjauhkan diri dari asap rokok. Sebab, kedua hal tersebut sangat berpotensi untuk menghambat proses pengenceran dahak.&#xa;4. Hindari aktivitas yang menyebabkan tubuh menjadi lelah.&#xa;5. Bagi yang menyukai pengobatan tradisional, bisa dengan mengkonsumsi kencur yang diparut dan dicampur garam untuk mengurangi rasa mual dari aroma kencur mentah.&#xa;6. Perasan jeruk nipis yang dicampur kecap, sering pula dijadikan bahan pengobatan. Hanya saja bagi penderita maag, hal ini tidak disarankan karena bisa menimbulkan efek pada lambung."/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="11" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Definisi"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JToggleButton" name="jToggleButton2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Simpan"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton2ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="18" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Penyakit Sakit Batuk"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Pakar/Penakit THT/batuk.png"/>
+        </Property>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>

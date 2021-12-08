@@ -1,0 +1,7 @@
+to do list:
+ini
+adalah
+inputan
+yang dimasukkan
+melalui
+console
